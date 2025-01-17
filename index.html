@@ -1,0 +1,115 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Bootstrap</title>
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.3/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-QWTKZyjpPEjISv5WaRU9OFeRpok6YctnYmDr5pNlyT2bRjXh0JMhjY6hW+ALEwIH" crossorigin="anonymous">
+</head>
+<body style="background-color: rgb(255, 255, 255);">
+    <div class="header" style="text-align: center; background-color: rgb(184, 179, 255); padding: 20px;">
+        <h1>Bootstrap</h1>
+    </div>
+
+    <nav class="navbar navbar-expand-lg bg-body-tertiary">
+      <div class="container-fluid">
+        <a class="navbar-brand" href="#">Carlos Palacios</a>
+        <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
+          <span class="navbar-toggler-icon"></span>
+        </button>
+        <div class="collapse navbar-collapse" id="navbarSupportedContent">
+          <ul class="navbar-nav me-auto mb-2 mb-lg-0">
+            <li class="nav-item">
+              <a class="nav-link active" aria-current="page" href="https://zs22010307.github.io/Portafolio/">Home</a>
+            </li>
+            <li class="nav-item">
+              <a class="nav-link" href="https://www.canva.com/design/DAGbiMYPW_k/Yr0K5pNkmMmfQWtQoj-Qcw/edit?utm_content=DAGbiMYPW_k&utm_campaign=designshare&utm_medium=link2&utm_source=sharebutton">Actividad 1</a>
+            </li>
+            <li class="nav-item dropdown">
+              <a class="nav-link dropdown-toggle" href="#" role="button" data-bs-toggle="dropdown" aria-expanded="false">
+                Actividad 2
+              </a>
+              <ul class="dropdown-menu">
+                <li><a class="dropdown-item" href="https://zs22010307.github.io/Actividad2A/">Actividad 2A</a></li>
+                <li><a class="dropdown-item" href="https://zs22010307.github.io/Actividad2B/">Actividad 2B</a></li>
+              </ul>
+            </li>
+            <li class="nav-item">
+              <a class="nav-link active" aria-current="page" href="https://zs22010307.github.io/Actividad3/">Actividad 3</a>
+            </li>
+            <li class="nav-item">
+              <a class="nav-link disabled" aria-disabled="true">Actividad 6</a>
+            </li>
+            <li class="nav-item">
+              <a class="nav-link disabled" aria-disabled="true">Examen</a>
+            </li>
+            <li class="nav-item">
+              <a class="nav-link disabled" aria-disabled="true">Proyecto Final</a>
+            </li>
+          </ul>
+        </div>
+      </div>
+    </nav>
+   
+    <h2 class="text-center" style="padding: 7px;">Columnas Iguales</h2>
+    <div class="container text-center">
+        <div class="row" style="text-align: justify;">
+          <div class="col" style="border-style: solid; border-width: 2px; border-radius: 25px; border-color: black; background-color: blue; color: white;">
+            Lorem, ipsum dolor sit amet consectetur adipisicing elit. Dolorum exercitationem ipsum consectetur id voluptatibus laborum quos dolor ipsam neque, a repudiandae repellendus, quam provident, cupiditate beatae sequi cumque maiores aliquid.
+          </div>
+          <div class="col" style="border-style: solid; border-width: 1px; border-radius: 25px; background-color: aqua;">
+            Lorem ipsum dolor sit, amet consectetur adipisicing elit. Recusandae quis ratione ex numquam ut necessitatibus dicta. Amet esse suscipit fugit aperiam, doloremque quos earum impedit, adipisci repellat quibusdam error aspernatur?
+          </div>
+          <div class="col" style="border-style: solid; border-radius: 25px; border-width: 2px; background-color: aquamarine;">
+            Lorem ipsum dolor sit amet, consectetur adipisicing elit. Aliquam aperiam accusantium beatae consequuntur tenetur excepturi itaque deserunt totam molestias. Ut aliquam reiciendis voluptatem id odit quos numquam quas corporis est.
+          </div>
+        </div>
+      </div>
+
+      <p>...</p>
+
+      <h2 class="text-center" style="padding: 7px;">Columnas Diferentes (8 y 4 md)</h2>
+      <div class="row" style="text-align: justify;">
+        <div class="col-md-8" style="border-style: solid; border-width: 1px; background-color: rgb(127, 255, 138);">Lorem ipsum dolor sit amet consectetur adipisicing elit. Rerum, et optio explicabo nobis voluptates suscipit veniam velit adipisci voluptatem, quas eveniet possimus aperiam, ipsa odio nisi amet minima totam quia?</div>
+        <div class="col-md-4" style="border-style: solid; border-width: 2px; border-color: black; background-color: rgb(7, 121, 17); color: white;">Lorem, ipsum dolor sit amet consectetur adipisicing elit. Commodi veritatis doloribus nulla tenetur esse eum adipisci perspiciatis reiciendis quo totam, provident reprehenderit. Illum beatae asperiores facilis minus qui animi minima.</div>
+    </div>
+
+    <p>...</p>
+
+<h3 class="text-center" style="padding: 7px;">Columnas Diferentes (8 y 4 md) con Columnas Anidadas del mismo tamaño dentro de Columna 8</h3>
+    <div class="row" style="text-align: justify;">
+        <div class="col-md-4" style="border-style: solid; border-width: 1px; background-color: rgb(127, 236, 255);">Lorem ipsum dolor sit amet consectetur adipisicing elit. Maiores voluptatibus atque quaerat voluptates praesentium, totam nisi? Ipsum quo, quos soluta expedita necessitatibus dignissimos quia magni praesentium ipsa quibusdam impedit nobis?</div>
+        <div class="col-md-8" style="border-style: solid; border-width: 1px; border-color: black; color: white; background-color: rgb(17, 0, 255);">Lorem ipsum dolor sit amet consectetur adipisicing elit. Libero dolores aliquid impedit? Voluptate, necessitatibus ea? Eius, commodi in ex maiores enim repellat iusto consequuntur, quod, cum necessitatibus cumque quas quidem.
+            <div class="row">
+                <div class="col" style="border-style: solid; border-width: 1px; color: black; background-color: rgb(127, 172, 255);"> <h5 class="text-center">Columna Anidada</h5>Lorem ipsum, dolor sit amet consectetur adipisicing elit. Aspernatur expedita inventore, voluptas unde sapiente recusandae! Impedit similique quidem autem accusantium corrupti quisquam. Rerum non deleniti, expedita quidem architecto perspiciatis tempore!</div>
+                <div class="col" style="border-style: solid; border-width: 1px; color: black; background-color: rgb(165, 127, 255);"> <h5 class="text-center">Columna Anidada</h5>Lorem ipsum dolor sit amet consectetur adipisicing elit. Iure corporis ratione dolore nemo! Rerum dolor alias nemo modi molestiae ea recusandae magni aut cum porro? Tempora, nam? Animi, dolorem expedita.</div>
+            </div>
+        </div>
+    </div>
+
+    <p>...</p>
+
+    <h2 class="text-center" style="padding: 7px;">Mezcla de Columnas</h2>
+    <h3 class="text-center" style="padding: 7px;">(sm, md y lg)</h3>
+    <div class="row" style="text-align: justify;">
+        <div class="col-sm-6 col-md-4 col-lg-3" style="border-style: solid; border-width: 1px; background-color: rgb(255, 127, 127);">Lorem ipsum dolor sit amet consectetur, adipisicing elit. Sequi provident expedita ullam. Quas voluptas corrupti rem cumque adipisci eius possimus sit eaque quia aspernatur accusamus repudiandae, incidunt odio ipsa quasi.</div>
+        <div class="col-sm-6 col-md-4 col-lg-3" style="border-style: solid; border-width: 1px; background-color: rgb(253, 255, 127);">Lorem ipsum dolor sit amet consectetur adipisicing elit. Voluptatum expedita minima, quia quam ipsam aut quisquam numquam totam maiores magni dolore quis excepturi voluptates odit consequuntur, vero doloremque ipsa dolor.</div>
+        <div class="col-sm-6 col-md-4 col-lg-3" style="border-style: solid; border-width: 1px; background-color: rgb(127, 219, 255);">Lorem ipsum dolor sit amet, consectetur adipisicing elit. Expedita totam reiciendis laboriosam illo. Maiores, quasi delectus dolore unde dignissimos, quis culpa placeat cumque, ad animi incidunt ipsum sunt. Velit, aperiam!</div>
+      </div>
+
+      <p>...</p>
+      
+      <h3 class="text-center" style="padding: 7px;">(sm y lg)</h3>
+      <div class="row" style="text-align: justify;">
+        <div class="col-sm-6 col-lg-3" style="border-style: solid; border-width: 1px; background-color: rgb(255, 127, 227);">Lorem ipsum dolor, sit amet consectetur adipisicing elit. Quod aspernatur distinctio debitis optio laboriosam rerum corrupti corporis, illum veritatis ad repellendus temporibus dolores praesentium eaque necessitatibus perferendis aliquam delectus unde?</div>
+        <div class="col-sm-6 col-lg-3" style="border-style: solid; border-width: 1px; background-color: rgb(127, 255, 138);" >Lorem ipsum dolor sit amet consectetur adipisicing elit. Quisquam neque architecto, debitis quam recusandae dolore sunt. Veniam adipisci iusto soluta, quidem ea in, explicabo aut neque repellendus nisi inventore unde.</div>
+
+        <P>...</P>
+
+        <div class="footer" style="text-align: center; background-color: rgb(0, 0, 0); color: white; padding: 10px;">
+            <p>Realizado por: Palacios Ruiz Carlos. Última edición: 15 de enero de 2025.</p>
+        </div>
+
+        <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.3/dist/js/bootstrap.bundle.min.js" integrity="sha384-YvpcrYf0tY3lHB60NNkmXc5s9fDVZLESaAA55NDzOxhy9GkcIdslK1eN7N6jIeHz" crossorigin="anonymous"></script>
+</body>
+</html>
